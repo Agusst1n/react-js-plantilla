@@ -1,0 +1,41 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color:burlywood;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+    z-index: 2;
+}
+
+.accountON{
+    display: block;
+    position: relative;
+}
+.accountOFF{
+    display: none;
+}
+
+.accountON img{
+    border-radius: 50%;
+}
+
+.account_detailsON{
+    display: flex;
+    position: absolute;
+    top: 52px;
+    right: 0;
+    width: 200px;
+    height: 160px;
+    background-color: gray;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.account_detailsOFF{
+    display: none;
+}
+

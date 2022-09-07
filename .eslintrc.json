@@ -23,6 +23,11 @@
     ],
     "rules": {
         "prettier/prettier":"error",
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/button-has-type": ["<enabled>", {
+            "button": "<boolean>",
+            "submit": "<boolean>",
+            "reset": "<boolean>"
+          }]
     }
 }
